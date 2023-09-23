@@ -4,5 +4,5 @@ build:
 dev-up:
 	docker-compose -f docker-compose.development.yml up
 
-dev-down:
+dev-stop:
 	docker-compose -f docker-compose.development.yml down
